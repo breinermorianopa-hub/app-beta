@@ -41,6 +41,7 @@ port    = $SUPA_PORT
 
 ";
 //SUPA CONNECTION
+/*
 $SUPA_conn = pg_connect($SUPA_data_connection);
 
 if(!$SUPA_conn){ 
@@ -49,4 +50,5 @@ if(!$SUPA_conn){
 }else{
     echo " <br>Supabase Success connection !!!";
 }
+*/
 ?>

@@ -5,6 +5,6 @@ CREATE TABLE users(
      lastname       | character varying(15) |              | not null |
      email          | character varying(50) |              | not null |
      mobile_phone   | character varying(20) |              | not null |
-     password       | character(20)         |              | not null |
-     password_again | character(20)         |              | not null |
+     password       | character(20)         |              |  null    |
+     password_again | character(20)         |              |    null  |
 )

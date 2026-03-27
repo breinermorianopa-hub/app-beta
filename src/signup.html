@@ -7,20 +7,21 @@
     <link rel="icon" type="image/png" href="icons/home.png">
 </head>
 </head>
-<body>
+<body bgcolor ="BCB9C7">
     <table border="1" align="center"> 
-   <tr><td> <label for="email">email</label><br>
-    <input type="email"><br>
-    <label for="lastname">lastname</label><br>
-    <input type="text"><br>
-    <label for="Firstname">Firstname</label><br>
-    <input type="text"><br>
-    <label for="">psswrd</label><br>
-    <input type="psswrd"><br>
-    <label for="passwd">password again</label><br>
-    <input type="password"><br>
-    <label for="mphone">mobile phone</label><br>
-    <input type="number"><br>
+    <form name ="frm-user" action="signup.php" method ="post"
+   <tr> <label for="email">email</label><br></tr>  
+    <tr><input type="email" name="email"required><br></tr>  
+    <tr><label for="lastname">lastname</label><br></tr>  
+   <tr> <input type="text" name="lname"required><br></tr>  
+   <tr><label for="Firstname">Firstname</label><br></tr>  
+   <tr> <input type="text"name="fname"required><br></tr>  
+   <tr> <label for="">psswrd</label><br></tr>  
+    <tr><input type="psswrd" name="passwd"required><br></tr>  
+   <tr> <label for="passwd">password again</label><br></tr>  
+  <tr> <input type="password" ><br></tr>  
+  <tr>  <tr><label for="mphone">mobile phone</label><br></tr>  
+  <tr><input type="number" name="mphone"required><br></tr>  
     <button>Register</button> 
     </tr></td> </table>
 </body>
